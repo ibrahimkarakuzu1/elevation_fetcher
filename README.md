@@ -8,7 +8,7 @@ Coğrafi koordinatların (Enlem/Boylam) 3. boyutu olan **Yükseklik (Altitude)**
 * **Open-Elevation API:** NASA SRTM verisetini kullanan açık kaynaklı API.
 * **JSON/Requests:** Veri alışverişi için.
 
-## 🚀 Nasıl Çalışır?
+##  Nasıl Çalışır?
 Script, belirlenen koordinatları API'ye gönderir ve metre cinsinden yükseklik verisini döndürür.
 
 ```bash

@@ -1,17 +1,22 @@
-# Python Elevation Fetcher 
+#  Python Elevation Fetcher
 
-##  Amaç
-Coğrafi koordinatların (Enlem/Boylam) 3. boyutu olan **Yükseklik (Altitude)** verisine programatik olarak erişmek. Bu çalışma, 3D rota planlama algoritmaları için bir ön hazırlıktır.
 
-##  Teknoloji
+##  Objective
+To move beyond 2D geospatial data by programmatically accessing **Altitude (Elevation)** information. This study serves as the foundational infrastructure for developing 3D pathfinding algorithms and energy-efficient routing models.
+
+## Tech Stack
 * **Python**
-* **Open-Elevation API:** NASA SRTM verisetini kullanan açık kaynaklı API.
-* **JSON/Requests:** Veri alışverişi için.
+* **Open-Elevation API:** An open-source alternative to Google Elevation API, utilizing NASA's SRTM (Shuttle Radar Topography Mission) dataset.
+* **Requests Module:** For handling HTTP API transactions.
 
-##  Nasıl Çalışır?
-Script, belirlenen koordinatları API'ye gönderir ve metre cinsinden yükseklik verisini döndürür.
+## How It Works
+The script accepts a set of latitude/longitude coordinates (e.g., peaks in the Swiss Alps) and queries the DEM database to return the precise elevation in meters.
 
-```bash
-# Örnek Çıktı
-📍 Matterhorn Zirvesi  : 4478 metre
-📍 Zermatt Köyü        : 1608 metre
+### Sample Output:
+```text
+Connecting to NASA SRTM database...
+
+ELEVATION ANALYSIS RESULTS:
+----------------------------------------
+ Matterhorn Summit      : 4478 meters
+ Zermatt Village        : 1608 meters

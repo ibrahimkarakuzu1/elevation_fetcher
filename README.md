@@ -18,5 +18,5 @@ Connecting to NASA SRTM database...
 
 ELEVATION ANALYSIS RESULTS:
 ----------------------------------------
- Matterhorn Summit      : 4478 meters
- Zermatt Village        : 1608 meters
+ Matterhorn Summit      : 4181 meters
+ Zermatt Village        : 1610 meters
